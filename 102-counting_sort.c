@@ -7,8 +7,9 @@
  * @array: The array to be sorted
  * @size: The size of the array
  */
-void counting_sort(int *array, size_t size)
+void counting_sort(int *array, size_t size, int exp)
 {
+	void exp;
 	int *count_array, *sorted_array;
 	int i, max_value = 0;
 
