@@ -1,4 +1,8 @@
 #include "sort.h"
+<<<<<<< HEAD
+=======
+#include <stdlib.h>
+>>>>>>> 10d40db9e700e1e4c119bd45e7b2c4f900c74691
 #include <stdio.h>
 
 /**
@@ -54,7 +58,11 @@ void merge_sort(int *array, size_t size)
 	/* Merge the sorted sub-arrays */
 	left_size = mid;
 	right_size = size - mid;
+<<<<<<< HEAD
 	right[right_size];
+=======
+	right= malloc(right_size * sizeof(int));
+>>>>>>> 10d40db9e700e1e4c119bd45e7b2c4f900c74691
 
 
 
