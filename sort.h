@@ -3,6 +3,8 @@
 
 #include <stddef.h>
 
+#include "deck.h"
+
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -43,5 +45,6 @@ void array_swap(int *a, int *b);
 int partition_hoare(int *array, int low, int high, size_t size);
 void quicksort(int *array, int low, int high, size_t size);
 void quick_sort_hoare(int *array, size_t size);
+int compare_cards(const void *card1, const void *card2);
 
 #endif /* SORT_H*/
